@@ -1,0 +1,4 @@
+video,orig_fps,orig_frame_count,new_frame_count,orig_width,orig_height,new_width,new_height
+abby_road_view.mp4,30.0,9915,9915,1920,1080,720,405
+street_view.mp4,30.0,9139,9139,848,480,720,407
+superland_parking_view.mp4,59.96,33942,16971,832,464,720,401

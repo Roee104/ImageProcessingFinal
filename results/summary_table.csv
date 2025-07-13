@@ -1,0 +1,4 @@
+video,Total Frames,Kept Frames,Corrupted,Blank/White,Blurry/Noisy,Near-Duplicate,Brightness-Spike,Histogram-Outlier
+abby_road_view.mp4,9915,521,0,216,30,9148,0,0
+street_view.mp4,9139,1294,0,60,30,7755,0,0
+superland_parking_view.mp4,16971,2879,0,118,60,13914,0,0
