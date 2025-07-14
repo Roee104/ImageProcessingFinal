@@ -1,4 +1,3 @@
-````markdown
 # Video Summarization via Irrelevant-Frame Filtering
 
 A lightweight, purely classical pipeline for automatic video summarization of street-view and parking-lot footage. By applying a sequence of domain-tuned filters (blank/over-exposed, blur, noise, near-duplicate, brightness-spike, histogram-outlier), this project produces concise yet representative summaries without any deep-learning dependencies.
@@ -64,7 +63,6 @@ A lightweight, purely classical pipeline for automatic video summarization of st
 
 ## 📂 Repository Structure
 
-```text
 .
 ├── data/                       
 │   ├── abby_road_view.mp4
@@ -92,7 +90,7 @@ A lightweight, purely classical pipeline for automatic video summarization of st
 │   └── visualize_results.py
 ├── README.md                   
 └── LICENSE
-````
+
 
 ---
 
