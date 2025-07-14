@@ -234,5 +234,4 @@ This project is released under the MIT License. See [LICENSE](LICENSE) for detai
 
 Special thanks to **Dr. Cornel Lustig** for his exceptional teaching and guidance in image processing, and to the open-source communities behind **OpenCV**, **NumPy**, and **Matplotlib**. Continuous feedback from classmates and support from friends and family are also gratefully acknowledged.
 
-```
 
