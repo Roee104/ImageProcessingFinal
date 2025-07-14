@@ -63,6 +63,7 @@ A lightweight, purely classical pipeline for automatic video summarization of st
 
 ## 📂 Repository Structure
 
+```text
 .
 ├── data/                       
 │   ├── abby_road_view.mp4
@@ -90,7 +91,7 @@ A lightweight, purely classical pipeline for automatic video summarization of st
 │   └── visualize_results.py
 ├── README.md                   
 └── LICENSE
-
+````
 
 ---
 
