@@ -6,9 +6,7 @@ from pathlib import Path
 # List of video files
 video_files = [
     Path("data/abby_road_view.mp4"),
-    Path("data/parking_view.mp4"),
     Path("data/street_view.mp4"),
-    Path("data/street_view2.mp4"),
     Path("data/superland_parking_view.mp4")
 ]
 

@@ -18,7 +18,7 @@ THRESHOLD_BLUR = 70.0   # var(Laplacian) ≤ this ⇒ blurry
 THRESHOLD_NOISE = 45.0   # noise_metric ≥ this ⇒ noisy
 THRESHOLD_DIFF = 0.8    # mean absolute pixel diff ≤ this ⇒ near-duplicate
 THRESHOLD_SPIKE = 25.0  # Δ mean intensity ≥ 34 → brightness-spike frames
-THRESHOLD_HIST = 0.4  # hist correlation ≤ 0.72 → histogram-outlier frames
+THRESHOLD_HIST = 0.4  # hist correlation ≤ 0.72 → histogram-outlier frames
 
 
 def is_corrupted(frame: np.ndarray) -> bool:

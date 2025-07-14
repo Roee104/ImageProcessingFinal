@@ -2,7 +2,7 @@
 src/false_positive_analysis.py
 
 Analyze which filters are generating the most false positives
-(i.e. dropping frames that should be kept), excluding parking_view.mp4.
+(i.e. dropping frames that should be kept), 
 
 Usage:
     python src/false_positive_analysis.py
@@ -33,7 +33,7 @@ def main():
 
     # Count by filter
     counts = fp['filter_dropped'].value_counts()
-    print("\n=== False Positives by Filter (excluding parking_view.mp4) ===")
+    print("\n=== False Positives by Filter ===")
     print(counts.to_string())
 
     # Save breakdown

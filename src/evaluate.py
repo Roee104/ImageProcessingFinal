@@ -2,12 +2,11 @@
 src/evaluate.py
 
 Evaluate the frame-level classification performance of the cleaning pipeline,
-excluding parking_view.mp4.
 Reads in:
 - logs/frame_by_frame.csv (predicted drop/keep decisions)
 - logs/gt_labels.csv (ground-truth labels: 1=drop, 0=keep)
 
-Computes for each video (except parking_view.mp4):
+Computes for each video:
 - TP, FP, FN, TN
 - Precision, Recall, F1-score
 
@@ -43,7 +42,7 @@ def compute_confusion_metrics(df):
             'Precision': precision, 'Recall': recall, 'F1-score': f1
         })
 
-    # Overall (exclude parking_view.mp4 already filtered out)
+    # Overall
     tp = ((df['gt_drop'] == 1) & (df['pred_drop'] == 1)).sum()
     fp = ((df['gt_drop'] == 0) & (df['pred_drop'] == 1)).sum()
     fn = ((df['gt_drop'] == 1) & (df['pred_drop'] == 0)).sum()
@@ -85,7 +84,7 @@ def main():
     df_metrics = compute_confusion_metrics(df)
 
     # Print and save
-    print("\n=== Frame-Level Evaluation Metrics (excluding parking_view.mp4) ===")
+    print("\n=== Frame-Level Evaluation Metrics ===")
     print(df_metrics.to_string(index=False))
     out_csv.parent.mkdir(parents=True, exist_ok=True)
     df_metrics.to_csv(out_csv, index=False)
