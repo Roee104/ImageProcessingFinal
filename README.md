@@ -117,8 +117,8 @@ pip install opencv-python numpy pandas matplotlib scikit-learn
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Roee104/ImageProcessingFinal.git
+   cd ImageProcessingFinal
    ```
 2. Install dependencies (see above).
 
